@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60ee40b0-de66-4a28-a7c5-2a1656f854fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/com/github/study/httpclient/CookieUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/com/github/study/httpclient/CookieUtilBak.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/com/github/study/design/proxy/givegift/GiveGift.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/com/github/study/design/proxy/givegift/GiveProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/com/github/study/httpclient/HCTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/com/github/study/design/factory/operate/IFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/com/github/study/httpclient/LoginDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/com/github/study/design/factory/operate/OperateAddFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/com/github/study/design/proxy/givegift/Pursuit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/com/github/study/design/proxy/givegift/SchoolGirl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/com/github/study/httpclient/clientMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/com/github/study/design/factory/operate/operate4.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/src/com/github/study/design/factory/operate/operate3.java" afterPath="$PROJECT_DIR$/thread/src/com/github/study/design/factory/operate/operate3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/com/github/study/util/RegexSpiderUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/com/github/study/httpclient/ZfbDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/com/github/study/util/ZxingUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/thread.iml" afterPath="$PROJECT_DIR$/thread/thread.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="F:\study\thread\src\com\github\study\httpclient\HCTest.java" afterPath="$PROJECT_DIR$/thread/src/com/github/study/httpclient/SchoolNetDemo.java" />
     </list>
     <ignored path="study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,14 +59,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CookieUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/httpclient/CookieUtil.java">
+      <file leaf-file-name="SchoolNetDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/httpclient/SchoolNetDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+              <caret line="51" column="63" selection-start-line="50" selection-start-column="8" selection-end-line="51" selection-end-column="63" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#4637#4653#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3485#3500#0" expanded="true" />
+                <element signature="e#7900#7915#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,34 +85,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clientMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/httpclient/clientMain.java">
+      <file leaf-file-name="ZfbDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/httpclient/ZfbDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HCTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/httpclient/HCTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2802768">
-              <caret line="282" column="65" selection-start-line="282" selection-start-column="65" selection-end-line="282" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.64903224">
+              <caret line="127" column="14" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4258#4273#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractHttpMessage.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/httpcore-4.4.6.jar!/org/apache/http/message/AbstractHttpMessage.class">
+      <file leaf-file-name="RegexSpiderUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/util/RegexSpiderUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.193548">
-              <caret line="103" column="31" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="31" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,6 +119,26 @@
                 <element signature="imports" expanded="false" />
                 <element signature="e#4452#4468#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZxingUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/util/ZxingUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="70" column="48" selection-start-line="69" selection-start-column="4" selection-end-line="70" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractHttpMessage.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/httpcore-4.4.6.jar!/org/apache/http/message/AbstractHttpMessage.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="103" column="31" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,13 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thread/src/com/github/study/thread/threadDaemon.java" />
-        <option value="$PROJECT_DIR$/thread/src/com/github/study/thread/ThreadRace.java" />
-        <option value="$PROJECT_DIR$/thread/src/com/github/study/thread/ThreadCache.java" />
-        <option value="$PROJECT_DIR$/thread/src/com/github/study/thread/ThreadDeadlockDemo.java" />
-        <option value="$PROJECT_DIR$/thread/README.md" />
-        <option value="$PROJECT_DIR$/thread/src/com/github/study/thread/ThreadStoping.java" />
-        <option value="$PROJECT_DIR$/thread/src/com/github/study/thread/ThreadPlanets.java" />
         <option value="$PROJECT_DIR$/thread/src/com/github/study/thread/ThreadConsumerAndProduced.java" />
         <option value="$PROJECT_DIR$/thread/src/com/github/study/thread/ThreadLocalDemo.java" />
         <option value="$PROJECT_DIR$/thread/src/com/github/study/thread/ThreadCountDownLatchDemo.java" />
@@ -218,7 +216,14 @@
         <option value="$PROJECT_DIR$/thread/src/com/github/study/t1/LoginDemo.java" />
         <option value="$PROJECT_DIR$/thread/src/com/github/study/httpclient/LoginDemo.java" />
         <option value="$PROJECT_DIR$/thread/src/com/github/study/httpclient/clientMain.java" />
+        <option value="$PROJECT_DIR$/thread/src/com/github/study/httpclient/ZxingUtils.java" />
+        <option value="$PROJECT_DIR$/thread/src/com/github/study/httpclient/ZxingUtil.java" />
+        <option value="$PROJECT_DIR$/thread/src/com/github/study/util/ZxingUtil.java" />
         <option value="$PROJECT_DIR$/thread/src/com/github/study/httpclient/HCTest.java" />
+        <option value="$PROJECT_DIR$/thread/src/com/github/study/httpclient/SchoolNetTest.java" />
+        <option value="$PROJECT_DIR$/thread/src/com/github/study/httpclient/SchoolNetDemo.java" />
+        <option value="$PROJECT_DIR$/thread/src/com/github/study/util/RegexSpiderUtil.java" />
+        <option value="$PROJECT_DIR$/thread/src/com/github/study/httpclient/ZfbDemo.java" />
       </list>
     </option>
   </component>
@@ -281,7 +286,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -357,6 +361,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -368,10 +373,6 @@
               <option name="myItemId" value="thread" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -383,70 +384,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thread" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
+              <option name="myItemId" value="com.github.study" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="apache" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thread" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thread" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -487,7 +430,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/commons-logging-1.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zxing.jar!/" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -512,27 +455,7 @@
       <recent name="com.github.study.thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HCTest">
-    <configuration default="false" name="operate4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.github.study.design.factory.operate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.github.study.design.factory.operate.operate4" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="thread" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ZfbDemo">
     <configuration default="false" name="CookieUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -593,14 +516,34 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="HCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SchoolNetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.study.httpclient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.github.study.httpclient.HCTest" />
+      <option name="MAIN_CLASS_NAME" value="com.github.study.httpclient.SchoolNetDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="thread" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ZfbDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.github.study.httpclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.github.study.httpclient.ZfbDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -905,19 +848,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.ThreadCountDownLatchDemo" />
       <item index="1" class="java.lang.String" itemvalue="Application.ThreadRace" />
-      <item index="2" class="java.lang.String" itemvalue="Application.operate4" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CookieUtil" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LoginDemo" />
-      <item index="5" class="java.lang.String" itemvalue="Application.clientMain" />
-      <item index="6" class="java.lang.String" itemvalue="Application.HCTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CookieUtil" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LoginDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.clientMain" />
+      <item index="5" class="java.lang.String" itemvalue="Application.SchoolNetDemo" />
+      <item index="6" class="java.lang.String" itemvalue="Application.ZfbDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HCTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.clientMain" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LoginDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CookieUtil" />
-        <item index="4" class="java.lang.String" itemvalue="Application.operate4" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ZfbDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SchoolNetDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.clientMain" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LoginDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CookieUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -956,7 +899,9 @@
       <workItem from="1536298050811" duration="1891000" />
       <workItem from="1536300828692" duration="4193000" />
       <workItem from="1536540999505" duration="679000" />
-      <workItem from="1536558947665" duration="4427000" />
+      <workItem from="1536558947665" duration="4459000" />
+      <workItem from="1536628823457" duration="11931000" />
+      <workItem from="1536715278636" duration="5310000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1531792631185</created>
@@ -986,7 +931,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77672000" />
+    <option name="totallyTimeSpent" value="94945000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1009,7 +954,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912844" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30045873" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30619267" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912844" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912844" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1056,27 +1001,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/thread/ThreadRace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/thread/ThreadHello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/thread/ThreadDaemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/thread/ThreadCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1130,13 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/thread1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1319,7 +1236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1334,21 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#195#196#0" expanded="false" />
-            <element signature="e#234#235#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/httpclient/CookieUtilBak.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4452#4468#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1356,20 +1257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4637#4653#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/httpclient/LoginDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1384,7 +1271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1414,7 +1300,7 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/httpcore-4.4.6.jar!/org/apache/http/message/AbstractHttpMessage.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.193548">
+        <state vertical-scroll-proportion="0.0">
           <caret line="103" column="31" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="31" />
           <folding />
         </state>
@@ -1424,19 +1310,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4570384">
           <caret line="172" column="48" selection-start-line="172" selection-start-column="24" selection-end-line="172" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/httpclient/CookieUtilBak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
-            <element signature="e#6116#6117#0" expanded="true" />
-            <element signature="e#6166#6167#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4452#4468#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/httpclient/HCTest.java">
+    <entry file="file://$PROJECT_DIR$/thread/src/thread1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2802768">
-          <caret line="282" column="65" selection-start-line="282" selection-start-column="65" selection-end-line="282" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.254717">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/httpclient/LoginDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/util/ZxingUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="48" selection-start-line="69" selection-start-column="4" selection-end-line="70" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/util/RegexSpiderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/httpclient/SchoolNetDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="63" selection-start-line="50" selection-start-column="8" selection-end-line="51" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3485#3500#0" expanded="true" />
+            <element signature="e#7900#7915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/com/github/study/httpclient/ZfbDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64903224">
+          <caret line="127" column="14" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4258#4273#0" expanded="true" />
           </folding>
         </state>
       </provider>
