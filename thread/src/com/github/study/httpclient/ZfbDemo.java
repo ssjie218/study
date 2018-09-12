@@ -50,14 +50,14 @@ public class ZfbDemo {
                 params.add(new BasicNameValuePair("_callback", "light.request._callbacks.callback" + i));
                 i += 1;
                 Thread.sleep(3000);
-                if (checkStatus(params, httpclient,page)) {
+                if (checkStatus(params, httpclient, page)) {
                     break;
                 }
             }
         }
     }
 
-    private static boolean checkStatus(List<NameValuePair> params, CloseableHttpClient httpclient,String indexPage) throws Exception {
+    private static boolean checkStatus(List<NameValuePair> params, CloseableHttpClient httpclient, String indexPage) throws Exception {
         String paramsStr = EntityUtils.toString(new UrlEncodedFormEntity(params, "UTF-8"));
         HttpGet httpGet = new HttpGet("https://securitycore.alipay.com/barcode/barcodeProcessStatus.json" + "?" + paramsStr);
         httpGet.setHeader("User-Agent", "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36");
@@ -69,14 +69,14 @@ public class ZfbDemo {
             System.out.println(page);
             //如果确认了 手机信息
             if (page.indexOf(ZfbDemo.QRCODE_STATUS_CONFIRMED) != -1) {
-                login(httpclient,indexPage);
+                login(httpclient, indexPage);
                 return true;
             }
         }
         return false;
     }
 
-    private static void login(CloseableHttpClient httpclient,String indexPage) throws Exception{
+    private static void login(CloseableHttpClient httpclient, String indexPage) throws Exception {
         List<NameValuePair> loginparams = getLoginParams(indexPage);
         HttpEntity reqEntity = new UrlEncodedFormEntity(loginparams, "utf-8");
         HttpPost post = new HttpPost("https://authet15.alipay.com/login/index.htm");
@@ -88,33 +88,33 @@ public class ZfbDemo {
     }
 
     private static List<NameValuePair> getLoginParams(String indexPage) {
-        List<NameValuePair> loginparams =new ArrayList<NameValuePair>();
-        String support=RegexSpiderUtil.getStr("<input type=\"hidden\" name=\"support\" value = \"(.*?)\"", indexPage);
-        String CtrlVersion=RegexSpiderUtil.getStr("<input type=\"hidden\" name=\"CtrlVersion\" value = \"(.*?)\"", indexPage);
-        String loginScene=RegexSpiderUtil.getStr("<input type=\"hidden\" name=\"loginScene\" value = \"(.*?)\"", indexPage);
-        String rds_form_token=RegexSpiderUtil.getStr("<input type=\"hidden\" value=\"(.*?)\" name=\"rds_form_token", indexPage);
-        String qrCodeSecurityId= RegexSpiderUtil.getStr("securityId=(.*?)\"", indexPage).toString().replaceAll("%257C", "|");
-        String J_aliedit_key_hidn=RegexSpiderUtil.getStr("<input type=\"hidden\" name=\"J_aliedit_key_hidn\" value=\"(.*?)\"", indexPage);
-        String J_aliedit_uid_hidn=RegexSpiderUtil.getStr("<input type=\"hidden\" name=\"J_aliedit_uid_hidn\" value=\"(.*?)\"", indexPage);
-        String alieditUid=RegexSpiderUtil.getStr("<input type=\"hidden\" id=\"alieditUid\" name=\"alieditUid\" value=\"(.*?)\"", indexPage);
-        String passwordSecurityId=RegexSpiderUtil.getStr("<input type=\"hidden\" name=\"passwordSecurityId\" value=\"(.*?)\"", indexPage);
+        List<NameValuePair> loginparams = new ArrayList<NameValuePair>();
+        String support = RegexSpiderUtil.getStr("<input type=\"hidden\" name=\"support\" value = \"(.*?)\"", indexPage);
+        String CtrlVersion = RegexSpiderUtil.getStr("<input type=\"hidden\" name=\"CtrlVersion\" value = \"(.*?)\"", indexPage);
+        //String loginScene=RegexSpiderUtil.getStr("<input type=\"hidden\" name=\"loginScene\" value = \"(.*?)\"", indexPage);
+        String rds_form_token = RegexSpiderUtil.getStr("<input type=\"hidden\" value=\"(.*?)\" name=\"rds_form_token", indexPage);
+        String qrCodeSecurityId = RegexSpiderUtil.getStr("securityId=(.*?)\"", indexPage).toString().replaceAll("%257C", "|");
+        String J_aliedit_key_hidn = RegexSpiderUtil.getStr("<input type=\"hidden\" name=\"J_aliedit_key_hidn\" value=\"(.*?)\"", indexPage);
+        String J_aliedit_uid_hidn = RegexSpiderUtil.getStr("<input type=\"hidden\" name=\"J_aliedit_uid_hidn\" value=\"(.*?)\"", indexPage);
+        String alieditUid = RegexSpiderUtil.getStr("<input type=\"hidden\" id=\"alieditUid\" name=\"alieditUid\" value=\"(.*?)\"", indexPage);
+        String passwordSecurityId = RegexSpiderUtil.getStr("<input type=\"hidden\" name=\"passwordSecurityId\" value=\"(.*?)\"", indexPage);
 
-        loginparams.add(new BasicNameValuePair("support",support));
-        loginparams.add(new BasicNameValuePair("CtrlVersion",CtrlVersion));
-        loginparams.add(new BasicNameValuePair("loginScene","index"));
-        loginparams.add(new BasicNameValuePair("rds_form_token",rds_form_token));
-        loginparams.add(new BasicNameValuePair("json_tk","json_tk"));
-        loginparams.add(new BasicNameValuePair("method","qrCodeLogin"));
-        loginparams.add(new BasicNameValuePair("qrCodeSecurityId",qrCodeSecurityId));
-        loginparams.add(new BasicNameValuePair("qrCodeSecurityId",J_aliedit_key_hidn));
-        loginparams.add(new BasicNameValuePair("qrCodeSecurityId",J_aliedit_uid_hidn));
-        loginparams.add(new BasicNameValuePair("qrCodeSecurityId",alieditUid));
-        loginparams.add(new BasicNameValuePair("qrCodeSecurityId",passwordSecurityId));
+        loginparams.add(new BasicNameValuePair("support", support));
+        loginparams.add(new BasicNameValuePair("CtrlVersion", CtrlVersion));
+        loginparams.add(new BasicNameValuePair("loginScene", "index"));
+        loginparams.add(new BasicNameValuePair("rds_form_token", rds_form_token));
+        loginparams.add(new BasicNameValuePair("json_tk", "json_tk"));
+        loginparams.add(new BasicNameValuePair("method", "qrCodeLogin"));
+        loginparams.add(new BasicNameValuePair("qrCodeSecurityId", qrCodeSecurityId));
+        loginparams.add(new BasicNameValuePair("qrCodeSecurityId", J_aliedit_key_hidn));
+        loginparams.add(new BasicNameValuePair("qrCodeSecurityId", J_aliedit_uid_hidn));
+        loginparams.add(new BasicNameValuePair("qrCodeSecurityId", alieditUid));
+        loginparams.add(new BasicNameValuePair("qrCodeSecurityId", passwordSecurityId));
         return loginparams;
     }
 
     private static void getInformation(CloseableHttpClient httpclient) throws IOException {
-       // HttpGet httpGet = new HttpGet("https://custweb.alipay.com/account/index.htm");
+        // HttpGet httpGet = new HttpGet("https://custweb.alipay.com/account/index.htm");
         HttpGet httpGet = new HttpGet("https://personalweb.alipay.com/account/payAndCredit.htm");
 
         httpGet.setHeader("User-Agent", "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36");
