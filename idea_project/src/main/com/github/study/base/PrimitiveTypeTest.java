@@ -33,6 +33,7 @@ public class PrimitiveTypeTest {
         System.out.println("最大值：Long.MAX_VALUE=" + Long.MAX_VALUE);
         System.out.println();
 
+
         // float
         System.out.println("基本类型：float 二进制位数：" + Float.SIZE);
         System.out.println("包装类：java.lang.Float");
