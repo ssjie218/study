@@ -1,6 +1,7 @@
 package com.github.study.base;
 
 /**
+ * 原码->反码+1=补码 计算机里显示
  * Created by pc on 2018/7/19.
  */
 public class PrimitiveTypeTest {
@@ -11,6 +12,8 @@ public class PrimitiveTypeTest {
         System.out.println("最小值：Byte.MIN_VALUE=" + Byte.MIN_VALUE);
         System.out.println("最大值：Byte.MAX_VALUE=" + Byte.MAX_VALUE);
         System.out.println();
+
+//        正数的补码是其本身，负数的补码是其绝对值（即正数）取反加1。这里是各位取反，包括了符号位，注意与反码的区别
 
         // short
         System.out.println("基本类型：short 二进制位数：" + Short.SIZE);

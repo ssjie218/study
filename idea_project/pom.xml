@@ -26,7 +26,11 @@
       <scope>test</scope>
     </dependency>
 
-
+    <dependency>
+      <groupId>com.baidu.aip</groupId>
+      <artifactId>java-sdk</artifactId>
+      <version>4.7.0</version>
+    </dependency>
 
 
   </dependencies>
