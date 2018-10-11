@@ -6,6 +6,7 @@ import org.json.JSONObject;
 import java.util.HashMap;
 
 /**
+ * 百度文字识别技术
  * Created by pc on 2018/10/9.
  */
 public class OrcSample {
