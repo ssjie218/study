@@ -1,0 +1,78 @@
+1.java 中 3*0.1 == 0.3 将会返回什么？true 还是 false？
+
+双精度的问题
+//java中的浮点数值是采用二进制系统表示的，在二进制系统中是无法表示比如像1/10这样的数，就想十进制中也无法精确表示1/3
+	
+2. Integer f1 = 100, f2 = 100, f3 = 150, f4 = 150;
+   System.out.println(f1 == f2); //true   -128~127缓存取
+   System.out.println(f3 == f4); //false
+   
+   
+3. char a='1';
+   char b='\1';
+   char c='\u0001';
+   1.System.out.println(a+0); //49
+   2.System.out.println(b+0); //1
+   S.System.out.println(c+0); //1
+   4.System.out.println(c);  //r
+   
+   字符类型char
+   1.字符'1'对应的unicode表值为49
+   2.\为转译符   \1标识八进制1 转化为整型为1
+   3.\u 16进制编码 转化为整型为1
+   4.\u0001 对应unicode编码表 显示r
+   
+4.67和-67在计算机中二进制码是多少
+ 正数的二进制就是原码
+ 负数的二进制码是 取绝对值的原码按位取反+1
+ 00111101
+ 11000011
+  
+5  
+下面代码的输出结果是？
+ 1         Integer integer = 42;
+ 2         Long long1 = 42L;
+ 3         Double double1 = 42.0;
+ 4 
+ 5         System.out.println(integer == long1);         //编译错误
+ 6         System.out.println(integer == double1);       //编译错误
+ 7         System.out.println(long1 == double1);         //编译错误
+ 8         System.out.println(integer.equals(double1));  //false
+ 9         System.out.println(double1.equals(long1));    //false
+10         System.out.println(integer.equals(long1));    //false
+11         System.out.println(long1.equals(42));         //false
+12         System.out.println(long1.equals(42L));        //true
+13         System.out.println(integer.equals(new Integer(42)));//true
+
+1.不通数据类型不好==
+2.equals比较相同类型比大小 不同类型直接false
+	看源码
+	 public boolean equals(Object obj) {
+        if (obj instanceof Long) {
+            return value == ((Long)obj).longValue();
+        }
+        return false;
+    }
+3. ==比较-128~127有缓存
+ 可看源码
+ InegerCache 缓存了
+
+
+6 System.out.println(2.00 - 1.10);
+双精度的问题
+//java中的浮点数值是采用二进制系统表示的，在二进制系统中是无法表示比如像1/10这样的数，就想十进制中也无法精确表示1/3
+
+7 有如下一段代码
+    public class Returnlt{
+        returnType methodA(byte x,double y){
+            return x/y*2;
+        }
+    }
+    在第2行重，方法methodA的有效返回类型returnType应该是什么类型
+	
+double
+	
+	
+  
+   
+
