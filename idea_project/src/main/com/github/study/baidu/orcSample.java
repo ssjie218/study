@@ -32,7 +32,7 @@ public class OrcSample {
         System.setProperty("aip.log4j.conf", "path/to/your/log4j.properties");
 
         // 调用接口
-        String path = "C:\\Users\\pc\\Desktop\\1540886811.jpg";
+        String path = "C:\\Users\\pc\\Desktop\\3.png";
         JSONObject res = client.basicAccurateGeneral(path, new HashMap<String, String>());
         System.out.println(res.toString(2));
 

@@ -1,0 +1,69 @@
+1.列举几个Arrays的常用方法
+sort asList toString
+
+2.比較Arrays.sort()和Arrays.parallelSort()
+parallelSort jdk1.8的新方法   数组长度小于2^13的时候效率和sort一样  调用排序方式是一样的  大于的话用多线程排序(源码还不解)，效率更高
+jdk1.8建议使用parallelSort
+
+3.给定一个数组求出数组中重复 value 的个数
+把数组转化为set自动去重 原数组长度减去set长度就是重复的个数
+
+4.数组(Array)和列表(ArrayList)有什么区别？什么时候应该使用Array而不是ArrayList？
+Array存放对象和基本类型  定长
+ArrayList只存放对象  长度可变
+不变的对象集合用Array存储
+
+5.数组长度可变吗，数组长度最高是多少，ArrayList最高长度是多少
+数组长度不可变。数组长度限制于JVM内存。ArrayList理论长度最高为2^31-1 同时限制于JVM内存
+6.ArrayList<String> list =new ArrayList<String>();
+        list.add("333");
+        list.add("44");
+        list.add("55");
+        list.add("11");
+        for(String str:list){
+            if("333".equals(str)){
+                list.remove(str);}
+        }
+        System.out.println(list.size());
+把 333 换成另外三个字符串结果一样吗
+
+55能执行删除  其余不行
+看ArrayList 迭代器源码
+不是remove本身报错 是执行迭代器next的时候报错
+删除55后为什么没报错  因为删除55后再执行hasNext()的时候刚好结束
+
+附加题
+package com;
+
+class Father {
+	static {
+		System.out.println("Father static");
+	}
+	{
+		System.out.println("Father normal");
+	}
+	public Father() {
+		System.out.println("Father 构造函数");
+	}
+}
+
+public class Son extends Father {
+
+	static {
+		System.out.println("Son static");
+	}
+	{
+		System.out.println("Son normal");
+	}
+
+	public Son() {
+		System.out.println("Son 构造函数");
+	}
+
+	public static void main(String[] args) {
+		new Son();//输出什么-》
+	}
+
+}
+
+看数组源码中有<T><E>  可以上网了解下JAVA泛型

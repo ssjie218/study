@@ -5,13 +5,13 @@ import java.util.Arrays;
 
 public class MaopaoTest {
     public static void main(String[] args) {
-        int num[] = {6, 4, 3, 2, 7};
+        int num[] = {22, 2, 3, 8, 7,5,19,11,1};
         maopao(num);
         System.out.println(Arrays.toString(num));
-        int num2[] = {6, 4, 3, 2, 7};
+        int num2[] = {6, 2, 3, 8, 7,5,19,11,1};
         insertSort(num2);
         System.out.println(Arrays.toString(num2));
-        int num3[] = {6, 4, 3, 2, 7};
+        int num3[] = {6, 2, 3, 8, 7,5,19,11,1};
         seqSort(num3);
         System.out.println(Arrays.toString(num3));
 
@@ -84,6 +84,7 @@ public class MaopaoTest {
                     num[j + 1] = num[j];
                     num[j] = tmp;
                 }
+
             }
             if (pwd == 1) {
                 break;

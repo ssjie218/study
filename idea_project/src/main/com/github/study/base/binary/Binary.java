@@ -22,6 +22,5 @@ public class Binary {
         Integer iii=42;
         Long j=42L;
         System.out.println(j.equals(42));
-
     }
 }

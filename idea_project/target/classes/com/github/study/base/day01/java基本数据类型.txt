@@ -13,14 +13,14 @@
    char c='\u0001';
    1.System.out.println(a+0); //49
    2.System.out.println(b+0); //1
-   S.ystem.out.println(c+0); //1
-   4.System.out.println(c);    空
+   S.System.out.println(c+0); //1
+   4.System.out.println(c);  //r
    
    字符类型char
    1.字符'1'对应的unicode表值为49
    2.\为转译符   \1标识八进制1 转化为整型为1
    3.\u 16进制编码 转化为整型为1
-   4.\u0001 无对应unicode编码表 显示空
+   4.\u0001 对应unicode编码表 显示r
    
 4.67和-67在计算机中二进制码是多少
  正数的二进制就是原码
