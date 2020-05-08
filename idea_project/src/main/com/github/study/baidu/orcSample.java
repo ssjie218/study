@@ -4,12 +4,13 @@ import com.baidu.aip.ocr.AipOcr;
 import org.json.JSONObject;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 百度文字识别技术
  * Created by pc on 2018/10/9.
  */
-public class OrcSample {
+class OrcSample {
     //设置APPID/AK/SK
     public static final String APP_ID = "14378602";
     public static final String API_KEY = "pjGczctn3WqppRmdZoyszI1o";
@@ -32,9 +33,18 @@ public class OrcSample {
         System.setProperty("aip.log4j.conf", "path/to/your/log4j.properties");
 
         // 调用接口
-        String path = "C:\\Users\\pc\\Desktop\\3.png";
-        JSONObject res = client.basicAccurateGeneral(path, new HashMap<String, String>());
-        System.out.println(res.toString(2));
+        String path = "C:\\Users\\Administrator\\Desktop\\555.jpg";
+//        String path="http://barbecue-img.oss-cn-hangzhou.aliyuncs.com/image/e61d7b2f393841a7b9249bca767235d1.jpg";
+        JSONObject res = client.basicGeneral(path, new HashMap<String, String>());
+        net.sf.json.JSONObject reso=net.sf.json.JSONObject.fromObject(res.toString(2));
+        Map<String, Class<?>> classMap = new HashMap<String, Class<?>>();
+        classMap.put("words_result", Word.class);
 
+        Result result= (Result) net.sf.json.JSONObject.toBean(reso,Result.class,classMap);
+        System.out.println(res.toString(2));
+        for (Word word : result.getWords_result()) {
+            System.out.print(word.getWords());
+        }
+        System.out.println(res.get("word_result"));
     }
 }
